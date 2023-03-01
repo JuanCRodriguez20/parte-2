@@ -42,5 +42,8 @@ jobs:
           pip install -r requirements.txt
           cd lambda1
           zappa update
+          cd ..
+          cd lambda2
+          zappa update
       
           
