@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "app_function": "lambda1_dolar.lambda_handler",
+        "keep_warm": false,
+        "role_name": "LabRole",
+        "aws_region": "us-east-1",
+        "profile_name": "default",
+        "manage_roles": false,
+        "apigateway_enabled": false,
+        "project_name": "ejerciciolambda",
+        "runtime": "python3.9",
+        "s3_bucket": "zappa-9nlrzmwga"
+    }
+}
