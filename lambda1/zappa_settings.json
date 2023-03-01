@@ -13,6 +13,6 @@
     
     "events": [{
             "function": "lambda2_update.lambda_handler",
-            "expression": "cron(34 20 * * ? *)"
+            "expression": "cron(37 20 * * ? *)"
             }],
 }
