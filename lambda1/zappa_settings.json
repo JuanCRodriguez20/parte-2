@@ -9,10 +9,10 @@
         "project_name": "ejerciciolambda",
         "runtime": "python3.9",
         "s3_bucket": "zappa-9nlrzmwga"
-    }
     
-    "events": [{
-            "function": "lambda1_update.lambda_handler",
-            "expression": "cron(42 20 * * ? *)"
-            }],
+        "events": [{
+                "function": "lambda1_update.lambda_handler",
+                "expression": "cron(42 20 * * ? *)"
+                }]
+    }
 }
