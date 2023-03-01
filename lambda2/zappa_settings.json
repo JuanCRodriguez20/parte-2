@@ -2,7 +2,6 @@
     "dev": {
         "app_function": "lambda2_update.lambda_handler",
         "aws_region": "us-east-1",
-        "profile_name": "default",
         "project_name": "lambda2",
         "runtime": "python3.9",
         "s3_bucket": "zappa-ywqxe5fgm",
