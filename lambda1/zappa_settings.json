@@ -12,7 +12,7 @@
     }
     
     "events": [{
-            "function": "lambda2_update.lambda_handler",
-            "expression": "cron(37 20 * * ? *)"
+            "function": "lambda1_update.lambda_handler",
+            "expression": "cron(42 20 * * ? *)"
             }],
 }
